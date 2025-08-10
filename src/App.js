@@ -1,3 +1,5 @@
+import './index.css';
+
 import React, { useState, useEffect } from "react";
 import { initializeApp } from "firebase/app";
 import {
@@ -11,12 +13,13 @@ import {
 
 // 🔹 CONFIGURACIÓN FIREBASE (reemplaza con tus credenciales)
 const firebaseConfig = {
-  apiKey: "TU_API_KEY",
-  authDomain: "TU_DOMINIO.firebaseapp.com",
-  projectId: "TU_PROJECT_ID",
-  storageBucket: "TU_BUCKET.appspot.com",
-  messagingSenderId: "TU_MESSAGING_ID",
-  appId: "TU_APP_ID"
+apiKey: "AIzaSyBquaPEHu0JBQIYbpBaIwo5KWyXGJBNZ10",
+  authDomain: "iphone16pro-6213b.firebaseapp.com",
+  projectId: "iphone16pro-6213b",
+  storageBucket: "iphone16pro-6213b.firebasestorage.app",
+  messagingSenderId: "659497411977",
+  appId: "1:659497411977:web:e3d6b9c865372d2f8ced58",
+  measurementId: "G-GEBTLSWX6Y"
 };
 
 const app = initializeApp(firebaseConfig);
